@@ -7,7 +7,6 @@ phases:
   build:
     commands:
       - mvn clean install
-      - npm install
   post_build:
     commands:
       - echo Build completed
